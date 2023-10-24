@@ -1,0 +1,63 @@
+
+.r-container{
+  position: relative;
+}
+
+.r-head {
+  margin-bottom: 2rem;
+}
+.r-card {
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: max-content;
+  margin: auto;
+  transition: all 300ms ease-in;
+}
+.r-card > img {
+  width: 100%;
+  max-width: 15rem;
+}
+
+.r-card > :nth-child(2) {
+  font-size: 1.5rem;
+}
+.r-card > :nth-child(3) {
+  font-size: 0.7rem;
+  width: 15rem;
+}
+
+.r-card > :nth-child(4) {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.r-card:hover{
+    scale: 1.025;
+    cursor: pointer;
+   background: linear-gradient(
+    180deg,
+    rgba(199, 230, 240, 0.73) 0%,
+    rgba(164, 168, 186, 0.46) 217.91%
+   );
+    
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.swiper-horizontal {
+  overflow: visible;
+}
+.r-button
+{ gap: 1rem;
+  position: relative;
+
+}
+.r-button button{
+  font-size: 1.2rem;
+  
+  padding: 0.2rem,0.8rem;
+  color: rgb(53, 53, 114);
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.112);
+  cursor: pointer;
+}
